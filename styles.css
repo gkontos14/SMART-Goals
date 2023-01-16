@@ -1,0 +1,179 @@
+body {
+    background-color: #dcd1c0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+form {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 8px;
+    border: 1px solid hsl(0deg 0% 50%);
+}
+
+.SignUpFields {
+    width: 48%;
+}
+
+.container {
+    display: flex;
+}
+
+#smallEntry {
+    width: 23%;
+}
+
+#bio {
+    height: 20vh;        
+}
+
+.fit {
+    width: 48%;
+}
+
+.f {
+    width: 95%;
+}
+
+.adjust{
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 27px;
+    padding: 8px;
+
+}
+
+.SignInFields {
+    width: 100%;
+    
+}
+
+.SignIn {
+    position: absolute;
+    top:  50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#title {
+    position: absolute;
+    left: 50%;
+    top: 33%;
+    transform: translate(-50%, -50%);
+}
+
+.goallist{
+    position: absolute;
+    left: 7%;
+    width: 90%;
+    
+    
+}
+
+.goal{
+    height: 10vh;
+    left: 50%;
+   
+}
+
+#newbutton{
+    background-color:rgb(123, 123, 127);
+}
+
+.description{
+    width: 90%;
+    height: 8vh;
+}
+
+.small{
+    width: 20%;
+}
+
+.goalbutton{
+    width: 40%;
+    height: 10vh;
+}
+
+#progressbar{
+    position:absolute;
+    bottom: 10%;
+    left: 42.5%;
+}
+
+#notif{
+    position:absolute;
+    bottom: 60%;
+    left: 52.5%;
+
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 27px;
+    padding: 8px;
+
+}
+
+#buttons{
+    position:absolute;
+    bottom: 30%;
+    left: 52.5%;
+
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 27px;
+    padding: 8px;
+    
+}
+
+.newnotif{
+    width: 16.3%;
+    height: 10vh;
+}
+
+
+.newtarget{
+    width: 15%;
+    height: 10vh;
+}
+
+#description{
+    width: 55%;
+}
+
+.header {
+    background-color: #314678;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+    flex-wrap: wrap;
+}
+
+.lin {
+    font-style: normal;
+}
+
+
+
+a:link { 
+    text-decoration: none; 
+}
+
+
+a:visited { 
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+ }
+
+
+a:hover { 
+    text-decoration: none; 
+}
+
+
+a:active {
+     text-decoration: none; 
+    }
